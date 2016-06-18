@@ -4,6 +4,6 @@ script="veto_packages.sh"
 
 cat completions.sh >> "$HOME/${startup_script}"
 chmod 755 $script
-sudo cp veto_packages.sh /usr/bin/veto_packages
+sudo cp $script /usr/bin/veto_packages
 
 source "$HOME/${startup_script}"
